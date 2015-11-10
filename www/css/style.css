@@ -1,0 +1,87 @@
+<!-- CSS -->
+html{
+	margin;0;
+	padding:0;
+}
+
+body{
+	margin:0; 
+	padding:0; 
+	font-family:Times,serif; 
+	font-size:150%; 
+	color:#FFFFFF;
+}
+		
+a{
+	color:#FFFFFF;
+}
+
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoratiion:none;
+}
+a:active{
+	text-decoration:none;
+}
+
+table{
+	text-align:center;
+	width:100%;
+	font-size:80%;
+	color:#000000;
+}
+table thead{
+	font-weight:bold;
+}
+
+#header{
+	width:100%;
+	height100px;
+	text-align:center;
+	background-color:#5D5D5D;
+}
+#top{
+	width:100%;
+	height:65px; 
+	background-color:#000000; 
+	text-align:center; 
+	vertical-align:middle; 
+	color:#FFFFFF;
+}
+
+#top-left{
+	width:50%;
+	float:left;
+	margin-top:10px;
+}
+#top-right{
+	width:50%;
+	float:right;
+	margin-top:10px;
+}
+
+#contents{
+	width:100%; 
+	height:350px; 
+	background-color:#FFFFCC;
+}
+
+#foot{
+	width:100%; 
+	height:160px; 
+	background-color:#5D5D5D;
+}
+
+#test{
+	width:100%; 
+	height:10px; 
+	margin-top:12px;  
+	background-color:#3DB7CC;
+}
+
+
