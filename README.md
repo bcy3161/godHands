@@ -3,7 +3,8 @@ Rc Car with raspberryPi and Cam
 
 This Project is for graduation by changyeon.
 
-How To Start : \n
+How To Start :
+
 0. need Apache
 1. start mjpg-streamer
     nohup sh start-mjpg.sh&
