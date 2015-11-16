@@ -54,7 +54,7 @@ int main(int argc, char *argv[]){
 					if((flag2==0)&&(message[0]=='1')){
 						printf("door open! %d\n",flag2);
 						flag2=1;
-						system("./eytest");
+						system("./pushServer");
 					}
 					else if((flag2==1)&&(message[0]=='0')){
 						printf("door close%d\n",flag2);

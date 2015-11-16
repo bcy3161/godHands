@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/button.css">
 	
+	<script language="javascript" src="./js/jquery.js"></script>
 	<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
-		$("#fw").click(function(){
+		$("#fw").mousedown(function(){
 			$.ajax({
 				type:'post'
 				,url:'./fw.php'
@@ -21,7 +22,7 @@
 	});
 	
 	$(document).ready(function(){
-		$("#bw").click(function(){
+		$("#bw").mousedown(function(){
 			$.ajax({
 				type:'post'
 				,url:'./bw.php'
@@ -30,7 +31,7 @@
 	});
 
 	$(document).ready(function(){
-		$("#lw").click(function(){
+		$("#lw").mousedown(function(){
 			$.ajax({
 				type:'post'
 				,url:'./lw.php'
@@ -39,16 +40,35 @@
 	});
 
 	$(document).ready(function(){
-		$("#rw").click(function(){
+		$("#rw").mousedown(function(){
 			$.ajax({
 				type:'post'
 				,url:'./rw.php'
 			});
 		})
 	});
+	
+	$(document).ready(function(){
+		$("#st").mousedown(function(){
+			$.ajax({
+				type:'post'
+				,url:'./st.php'
+			});
+		})
+	});
+
+	//Click up
+	$(document).ready(function(){
+		$("#fw").mouseup(function(){
+			$.ajax({
+				type:'post'
+				,url:'./st.php'
+			});
+		})
+	});
 
 	$(document).ready(function(){
-		$("#st").click(function(){
+		$("#bw").mouseup(function(){
 			$.ajax({
 				type:'post'
 				,url:'./st.php'
@@ -61,24 +81,9 @@
 <body>
 
 
-<div id="header">
-부처님손바닥
-</div>
-
-<div id="top">
-	<div id="top-left">
-		<a href="#">RC Car</a>
-		<div id="test">
-		</div>
-	</div>
-	<div id="top-right">
-		<a href="./selectIot.html">IoT</a>
-	</div>
-</div>
-
 <div id="contents">
 	<div id="webcam" style="width:100%; height:350px;">
-		<img src="http://203.250.123.97:8889/?action=stream" style="width:100%; height:350px;"/>
+		<img src="http://192.168.0.43:8080/?action=stream" style="width:100%; height:350px;"/>
 	</div>
 </div>
 

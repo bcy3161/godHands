@@ -53,7 +53,7 @@ int main(void)
     char **pptr;
     char *hname = "gcm-http.googleapis.com";
     char *page = "/gcm/send";
-    char *poststr = "{ \"data\": {\"messageEY\": \"oh my goodness\" }, \"to\" : \"dtP7UMbNE4w:APA91bFJLX4A1sMc_S1Vcro54cYgoNToI9KKGpWKXiKh3YeNG7_GG7kbU3fiWHSX_JLfouZLgYkDUb1HS_WuPJB_5rpt_nkq7x7eY5pVW6Uko95sePNFaFR0SvKxpJGZQqO1SjOxqPwq\"}\r\n";
+    char *poststr = "{ \"data\": {\"messageEY\": \"oh my goodness\" }, \"to\" : \"cf5qq5_vrNs:APA91bHKwFJK8FIBaGoz1wK-V1I2tySNmw3HaTorzx6ag-9MMAzklJc5kYokbk5Wav2h3vOAQs_gDeIShNF8N2eDnyyzof7w2oXxVdade0LPud5jzRLxDxuIAx6b61K_pifQsEqL5BzU\"}\r\n";
  
  
  
