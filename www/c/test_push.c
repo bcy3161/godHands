@@ -21,7 +21,7 @@
  
 extern int h_errno;
  
-const char *apikey = "AIzaSyDWAJlxoBRj38lQ6zZZMOGwMT6dI1436iI";
+const char *apikey = "Insert your GCM Key";
  
 ssize_t process_http(int sockfd, char *host, char *page, char *poststr)
 {
